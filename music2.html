@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY MUSIC PLAYER</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+    font-weight: 300;
+    line-height: 1.4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: azure;
+ }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(48, 5, 97);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    padding: 12px;
+    font-size: 25px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 500px;padding: 3px;
+}
+ nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 2s;
+ }
+ .hero-section{
+ 
+
+
+background-image: url(op.jpeg);
+box-sizing:border-box;
+display: flex;
+background-size: cover;
+overflow: hidden;
+
+ height: 100vh;
+ display: grid;
+  color: white;
+ place-items: center;
+ text-align: center;
+
+ }
+ 
+ .hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .hero-section h1{
+    font-size: 90px;
+ }
+ .hero-section h3{
+    font-size: 40px;
+ }
+ .hero-section p{
+    font-size: 30px;
+ }
+ .hero-section h1:hover{
+   font-size: 100px;
+   transition: 1s;
+ }
+ section{
+    height: 1000px;
+   
+    place-items: center;
+    text-align: center;
+    color: aliceblue;
+    padding: 60px;
+    font-size: 23px;
+    
+ }
+ section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+ }
+ button:hover{
+    background-color: rgb(248, 242, 242);
+ }
+ button{
+    background-color: red;
+    height: 40px;
+    padding: 10px;
+    width: 180px;
+    font-size: 17px;
+    align-items: center;
+    align-self: center;
+    transition: 2s;
+ }
+ 
+ 
+ .aaa{
+    color: azure;
+    background-image: url(222.jpeg);
+    
+
+ }
+ .giftcard{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    gap:50px;
+    flex-direction: row;
+ }
+ .abc{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+ }
+ .upperfooter{
+    height: 300px;
+    width: 1500px;
+
+ }
+ .containerr{
+    display: flex;
+    gap: 180px;
+    flex-direction: row;
+    color: rgb(246, 240, 240);
+    height: 250px;
+    padding: 40px;
+    background-color: rgb(48, 5, 97);
+    
+ }
+ .footerlower{
+    background-color: rgb(84, 32, 129);
+    height: 40px;
+    padding: 10px;
+   
+ }
+ h4{
+    border-bottom: 1px solid rgb(241, 234, 234);
+ }
+    </style>
+    <script src= "https://fontawesome.com/icons/music?s=solid&f=sharp" crossorigin="anonymous">
+        
+        
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo" style="color: aliceblue;">
+              Spotify
+            </div>
+            <ul>
+                <a href="#hero">
+                    <li>Overview</li>
+                </a>
+                <a href="music">
+                    <li>Music</li>
+                </a>
+                <a href="video">
+                    <li>Video</li>
+                </a>
+                <a href="gift">
+                    <li>Gift Cards</li>
+                </a>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section" id="hero" >
+           
+     <div class="container" >
+    
+    
+    <a href=""><h1>Spotify</h1></a>
+    <h3>Your movies , music , and TV shows take center stage.</h3>
+    <p>myTunes is the best way to organize and enjoy the music , movies and TV shows you already have - and shop for the ones you want . Enjoy all the entertainment myTunes has to offer.</p>
+</div>
+        </section>
+        <section class="music-section" id="music" style="background-color: rgb(48, 5, 97);">
+            <div class="container">
+               <h1> <span>
+                <img src="icon.jpeg" alt="" height="25px">
+                </span>
+                
+            Music</h1>
+            <h4>Stream over 45 million songs , ad-free or download albums to listen offline. All the music in your myTunes library-no matter from where it came from. Start your free three month trial with no commitment-and cancel anytime.</h4>
+          <a href="index.html"> <button >
+                Start Your Trial Now
+            </button> </a> 
+            <p>Orange music is available in myTunes and for iOS and Android devices.</p>
+            
+        </div>
+        <div class="edit" style="padding: 200px;">
+            <img src="2.jpeg" alt="" height="600px" width="900px" style="position: relative; margin-top: -1000px ;top: 400px;">
+        </div>
+        </section>
+        <section class="aboutmusic" id="music">
+            <h3 style="color: black;">The Movies and TV collection you always wished for.  GRANTED</h3>
+            <p style="color: black;padding:50px;">With over 100,000 movies and TV shows to choose from, there’s always something great to watch on myTunes and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</p>
+        <button style="background-color: rgb(5, 13, 118); color:aliceblue; margin:10px">Read More</button>
+        <div>
+            <img src="22.png" alt="">
+        </div>
+        </section>
+        <section class="aaa" style="background-image: url(222.jpeg); box-sizing:border-box;" id="video">
+            <h2 style="padding: 150px;">A world of entertainment. Available wherever you are.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!Voluptatem veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</p>
+        </section >
+        
+        <section class="giftcard" id="gift">
+            <div >
+                <img src="2222.png" alt="" style="height: 400px;">
+            </div>
+            <div class="abc">
+                <h3 style="color: black;">Gift Cards</h3>
+                <p style="color: black ;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi omnis a aut et totam illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed dicta itaque. Et aliquam illo obcaecati molestias veritatis porro.</p>
+            <p style="color: black;">Already have an Orange MyTunes Music Gift Card?</p>
+            <hr>
+            <button style="background-color: rgb(7, 7, 112);color:white ; margin:10px">
+                Redeem
+            </button>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <section class="upperfooter">
+            <div class="containerr">
+                <div>
+                    <h4>Shop & Learn</h4>
+                    <ul>
+                        <li>Music</li>
+                        <li>Movies</li>
+                        <li>Shows</li>
+                        <li>Apps</li>
+                        <li>Gift Cards</li>
+                       
+                    </ul>
+                </div>
+                <div>
+                <h4>Orange Store</h4>
+                <ul>
+                    <li>Find a store</li>
+                    <li>Today at orange</li>
+                    <li>Orange camp</li>
+                    <li>Financing</li>
+                    <li>Order Status</li>
+                </ul>
+             </div>
+             <div>               
+                 <h4>Education & Business</h4>
+                <ul>
+                    <li>Orange and education</li>
+                    <li>shop for collage</li>
+                    <li>Orange and business</li>
+                    <li>Shop for business</li>
+                    <li>Jobs</li>
+                </ul>
+             </div>
+             <div>
+                <h4>About Orange</h4>
+                <ul>
+                    <li>News room </li>
+                    <li>Orange leadership</li>
+                    <li>Investors</li>
+                    <li>Events</li>
+                    <li>Contact orange</li>
+                </ul>
+             </div>
+            </div>
+        </section>
+        <section class="footerlower">
+            <p>Copyright © Do some Coding</p>
+        </section>
+    </footer>
+</body>
+</html>
